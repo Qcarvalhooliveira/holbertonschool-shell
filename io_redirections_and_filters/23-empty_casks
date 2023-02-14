@@ -1,2 +1,2 @@
 #!/bin/bash
-find /path/to/dir -empty -type d
+find . -type d -empty -print | wc -l
