@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | find . -type d -printf "%i\n" | wc -l
+echo $PATH | tr ":" "\n" | wc -l
